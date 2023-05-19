@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <title>Portfolio - 노드의 정석</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+        * {
+            font-family: 'Gowun Dodum', sans-serif;
+        }
+
+        .menu {
+            background-color: lightsteelblue;
+            color: white;
+
+            height: 100px;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menu>button {
+            width: 220px;
+            height: 50px;
+
+            background-color: transparent;
+
+            border: 1px solid white;
+            color: white;
+        }
+
+        .about {
+            text-align: center;
+        }
+
+        .skills {
+            text-align: center;
+        }
+
+        .interests {
+            text-align: center;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact {
+            width: 500px;
+            margin: 20px auto 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <h3>HOME</h3>
+        <h3>ABOUT</h3>
+        <h3>PORTFOLIO</h3>
+        <h3>SKILLS</h3>
+        <h3>INTERESTS</h3>
+        <h3>CONTACT</h3>
+    </div>
+
+    <div class="about">
+        <h1>Kwon Chang-beom</h1>
+        <h3>IT Developer</h3>
+        <a href="https://twitter.com"><img src=https://icons.getbootstrap.com/assets/icons/twitter.svg></a>
+        <a href="https://github.com"><img src=https://icons.getbootstrap.com/assets/icons/github.svg></a>
+        <a href="https://medium.com"><img src=https://icons.getbootstrap.com/assets/icons/medium.svg></a>
+        <a href="https://instagram.com"><img src=https://icons.getbootstrap.com/assets/icons/instagram.svg></a>
+        <hr>
+    </div>
+
+    <div class="mycards">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://cccv-to.s3.ap-northeast-2.amazonaws.com/files/profile/B72PmTcZb8wj9xaP6vvW_xmzMqHFGMV"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio 1</h5>
+                        <p class="card-text">...</p>
+                        <p class="mycomment">......</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://cccv-to.s3.ap-northeast-2.amazonaws.com/files/profile/B72PmTcZb8wj9xaP6vvW_xmzMqHFGMV"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio 2</h5>
+                        <p class="card-text">제품 설명</p>
+                        <p class="mycomment"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://cccv-to.s3.ap-northeast-2.amazonaws.com/files/profile/B72PmTcZb8wj9xaP6vvW_xmzMqHFGMV"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio 3</h5>
+                        <p class="card-text"></p>
+                        <p class="mycomment"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://cccv-to.s3.ap-northeast-2.amazonaws.com/files/profile/B72PmTcZb8wj9xaP6vvW_xmzMqHFGMV"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio 4</h5>
+                        <p class="card-text"></p>
+                        <p class="mycomment"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills">
+        <hr>
+        <h1>SKILLS</h1>
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-python"></i>
+        <i class="fa-brands fa-docker"></i>
+        <i class="fa-brands fa-golang"></i>
+        <i class="fa-brands fa-rust"></i>
+        <hr>
+    </div>
+
+    <div class="interests">
+        <h1>INTERESTS</h1>
+        <hr>
+    </div>
+
+    <div class="contact">
+        <h1>CONTACT</h1>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">E-mail</label>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">comments</label>
+        </div>
+        <div class="mybtn">
+            <button type="button" class="btn btn-outline-dark">Send</button>
+            <button type="button" class="btn btn-outline-dark">Close</button>
+        </div>
+    </div>
+</body>
+
+</html>
